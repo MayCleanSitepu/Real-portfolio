@@ -4,6 +4,8 @@ import Landing from '../components/Landing';
 import { AnimatePresence } from 'framer-motion';
 import Preloader from '../components/Preloader';
 import Hero from '../components/Hero';
+import About from '../components/Tech';
+import Scene from '@/components/Scene/Scene';
 
 
 export default function Home() {
@@ -19,7 +21,7 @@ export default function Home() {
             setIsLoading(false);
             document.body.style.cursor = 'default'
             window.scrollTo(0,0);
-          }, 2000)
+          }, 200)
       }
     )()
   }, [])
@@ -29,8 +31,10 @@ export default function Home() {
       <AnimatePresence mode='wait'>
         {isLoading &&  <Preloader/>}
       </AnimatePresence>
-      <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
-      <Hero/>      
+      <Scene/>
+      <div class="absolute top-0 z-[-2] h-screen w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+      <Hero/> 
+      <About/>  
     </main>
   )
 }
