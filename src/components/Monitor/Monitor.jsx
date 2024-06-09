@@ -1,11 +1,11 @@
 import React from 'react';
-import { useGLTF } from '@react-three/drei';
+import { useGLTF, Html } from '@react-three/drei';
 
 export default function Monitor(props) {
   const { nodes, materials } = useGLTF('medias/gwe.glb');
   return (
     <group {...props} dispose={null}>
-      <group position={[2.822, 1.551, 0.657]} scale={[1.69, 1, 0.191]}>
+      <group className="sm:scale-75 md:scale-50 lg:scale-75 xl:scale-100" position={[0, 1.5, 0]} scale={[1.5, 1, 0.2]}>
         <mesh
           castShadow
           receiveShadow
@@ -24,9 +24,18 @@ export default function Monitor(props) {
           geometry={nodes.Cube008_3.geometry}
           material={materials['Material.002']}
         />
+
+        {/* <Html scale={0.2} position={[0.5, -0.2, 1.5]} transform occlude >
+          <button 
+            className="bg-slate-100 text-blue-600 rounded-[40%] w-20 h-10 flex items-center justify-center p-2 hover:bg-gray-800 active:bg-gray-900 focus:outline-none focus:ring focus:ring-gray-500"
+            onClick={() => alert('Button clicked!')}
+          >
+            <h1 className="text-center text-sm">contact me!</h1>
+          </button>
+        </Html> */}
       </group>
     </group>
   );
 }
 
-useGLTF.preload('/gwe.glb');
+useGLTF.preload('medias/gwe.glb');
