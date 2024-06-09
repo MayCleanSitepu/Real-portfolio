@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {RiReactjsLine} from "react-icons/ri";
 import {TbBrandNextjs} from "react-icons/tb";
 import { SiSelenium } from "react-icons/si";
@@ -12,15 +12,24 @@ import { SiKotlin } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
+import { SiThreedotjs } from "react-icons/si";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Index = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  }, [])
+
+
   return (
     <div className='border-b border-neutral-800 pb-24'>
       <h1 className='my-20 text-center text-4xl font-bold'> Tech Stacks</h1>
       <div className='m-auto flex flex-wrap items-center justify-center gap-4 sm:gap-10 w-full sm:w-2/4'>
         {/* list tech stacks */}
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4' data-aos="fade-down">
           <RiReactjsLine className='text-4xl sm:text-7xl text-cyan-400'/>
         </div>
 
@@ -71,6 +80,11 @@ const Index = () => {
         <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
           <FaPhp className='text-4xl sm:text-7xl text-blue-800'/>
         </div>
+
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+          <SiThreedotjs className='text-4xl sm:text-7xl text-white'/>
+        </div>
+        
       </div>
 
       </div>

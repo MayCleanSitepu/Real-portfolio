@@ -1,6 +1,7 @@
 import React from 'react';
 import CodeEditor from './CodeEditor';
 import Image from 'next/image';
+import Themonitor from '../Themonitor/Themonitor';
 
 const Index = () => {
   return (
@@ -17,13 +18,15 @@ const Index = () => {
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8 flex justify-center'>
-          <Image
-            className='rounded-lg'
+          {/* <Image
+            className='rounded-lg w-48 h-48 lg:w-[400px] lg:h-[250px]'
             src='/assets/meklin.JPG'
             alt='Mypics'
             width={400}
             height={400}
-          />
+            
+          /> */}
+          <Themonitor/>
         </div>
       </div>
     </div>
