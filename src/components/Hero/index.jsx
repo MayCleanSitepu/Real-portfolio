@@ -13,7 +13,7 @@ const Index = () => {
                   <h1 className='mt-8'>May Clean Sitepu</h1>
             </div>
             <span className='ml-10 my-10 lg:my-0 lg:ml-[19rem] pb-4 text-white font-light text-2xl '>
-              "While everyone else is trying to center their divs, I'm already centered. I'm different."
+              While everyone else is trying to center their divs, Im already centered. Im different.
             </span>
           </div>
         </div>
