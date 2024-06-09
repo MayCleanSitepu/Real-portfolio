@@ -12,7 +12,7 @@ const Index = () => {
             <div className='font-borel lg:mt-40 ml-1 lg:ml-80 pb-4 lg:pb-14 text-4xl lg:text-6xl bg-gradient-to-r from-blue-800 via-teal-300 to-indigo-700 animate-gradient-x bg-clip-text text-transparent font-bold tracking-tight '>         
                   <h1 className='mt-8'>May Clean Sitepu</h1>
             </div>
-            <span className='ml-10 my-10 lg:my-0 lg:ml-[19rem] pb-4 text-white font-light text-2xl '>
+            <span className='ml-10  my-10 lg:my-0 lg:ml-[20rem] pb-4 text-white font-light text-2xl '>
               While everyone else is trying to center their divs, Im already centered. Im different.
             </span>
           </div>
