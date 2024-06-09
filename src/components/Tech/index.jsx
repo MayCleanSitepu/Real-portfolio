@@ -13,6 +13,9 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { SiThreedotjs } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { SiDaisyui } from "react-icons/si";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -83,6 +86,18 @@ const Index = () => {
 
         <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <SiThreedotjs className='text-4xl sm:text-7xl text-white'/>
+        </div>
+
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
+          <FaFigma className='text-4xl sm:text-7xl text-red-400'/>
+        </div>
+
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
+          <FaBootstrap className='text-4xl sm:text-7xl text-purple-600'/>
+        </div>
+
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
+          <SiDaisyui className='text-4xl sm:text-7xl text-blue-400'/>
         </div>
         
       </div>
