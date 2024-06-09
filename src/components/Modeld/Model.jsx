@@ -36,13 +36,13 @@ export default function Model() {
 
             <Text
                 fontSize={2}
-                position={[0, 1, -0.5]}
+                position={[0, 0.5, -0.5]}
                 >
                 H    There!!
             </Text>
 
 
-                <Text position={[-3.8, 0.5, -.7]}>
+                <Text position={[-3.8, -0.1, -.7]}>
                     <mesh ref={mesh} {...nodes.Sphere001}>
                         <MeshTransmissionMaterial {...materialProps}/>
                         <Edges threshold={50} lineWidth={1} scale={1.1} renderOrder={1000}>

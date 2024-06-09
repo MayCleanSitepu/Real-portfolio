@@ -5,7 +5,7 @@ import Themonitor from '../Themonitor/Themonitor';
 
 const Index = () => {
   return (
-    <div className='border-b pb-28 lg:pb-60 border-neutral-400 lg:mb-35'>
+    <div className='border-b pb-28 lg:pb-1 border-neutral-400 lg:mb-35'>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>

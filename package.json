@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",
+    "@tsparticles/all": "^3.4.0",
+    "@tsparticles/react": "^3.0.0",
+    "anime": "^0.1.2",
+    "animejs": "^3.2.2",
     "aos": "^2.3.4",
     "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",

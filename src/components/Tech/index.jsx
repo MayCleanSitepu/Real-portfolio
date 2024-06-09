@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { use, useEffect } from 'react'
 import {RiReactjsLine} from "react-icons/ri";
 import {TbBrandNextjs} from "react-icons/tb";
 import { SiSelenium } from "react-icons/si";
@@ -22,7 +22,7 @@ const Index = () => {
   useEffect(()=>{
     Aos.init({duration: 2000});
   }, [])
-
+ 
 
   return (
     <div className='border-b border-neutral-800 pb-24'>
@@ -33,55 +33,55 @@ const Index = () => {
           <RiReactjsLine className='text-4xl sm:text-7xl text-cyan-400'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4' data-aos="fade-down">
           <TbBrandNextjs className='text-4xl sm:text-7xl text-white'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <SiSelenium className='text-4xl sm:text-7xl text-green-500'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <FaLaravel className='text-4xl sm:text-7xl text-red-600'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <FaJava className='text-4xl sm:text-7xl text-white'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <DiMysql className='text-4xl sm:text-7xl text-white'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <SiTailwindcss className='text-4xl sm:text-7xl text-cyan-400'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <FaDocker className='text-4xl sm:text-7xl text-blue-500'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <FaPython className='text-4xl sm:text-7xl text-yellow-400'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <SiKotlin className='text-4xl sm:text-7xl text-purple-800'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <IoLogoFirebase className='text-4xl sm:text-7xl text-yellow-600'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <FaNodeJs className='text-4xl sm:text-7xl text-green-900'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <FaPhp className='text-4xl sm:text-7xl text-blue-800'/>
         </div>
 
-        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'>
+        <div className='rounded-2xl border-4 border-neutral-800 p-2 sm:p-4'data-aos="fade-down">
           <SiThreedotjs className='text-4xl sm:text-7xl text-white'/>
         </div>
         

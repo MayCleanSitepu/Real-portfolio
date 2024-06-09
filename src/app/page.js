@@ -6,6 +6,7 @@ import Preloader from '../components/Preloader';
 import Hero from '../components/Hero';
 import About from '../components/Tech';
 import Scene from '@/components/Scene/Scene';
+import ParticlesBackground from '@/components/ParticlesBackground/ParticlesBackground';
 
 
 export default function Home() {

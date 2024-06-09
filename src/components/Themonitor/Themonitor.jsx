@@ -6,7 +6,7 @@ import Monitor from '../Monitor/Monitor';
 
 export default function Themonitor() {
     return (
-        <Canvas style={{ height: "100vh" }} className='overflow-x-hidden' shadows camera={{ position: [0, 0, 10], fov: 25 }}>  
+        <Canvas style={{ height: "70vh" }} className='overflow-x-hidden' shadows camera={{ position: [0, 0, 10], fov: 25 }}>  
             <ambientLight intensity={20} />
             <spotLight intensity={20} position={[10, 10, 10]} angle={0.15} penumbra={1} shadow-mapSize={2048} castShadow />
             
@@ -18,7 +18,7 @@ export default function Themonitor() {
                 polar={[-Math.PI / 3, Math.PI / 3]}
                 azimuth={[-Math.PI / 1.4, Math.PI / 2]}
             >
-                <Monitor position={[0, 0, 0]} scale={0.7} />
+                <Monitor position={[0, -1, 0]} scale={1} />
             </PresentationControls>
             
             <ContactShadows position={[0, -1.4, 0]} opacity={0.75} scale={10} blur={3} far={4} />
