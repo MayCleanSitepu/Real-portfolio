@@ -20,7 +20,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 
-const Index = () => {
+const Tech = () => {
 
   useEffect(()=>{
     Aos.init({duration: 2000});
@@ -106,4 +106,4 @@ const Index = () => {
   )
 }
 
-export default Index;
+export default Tech;

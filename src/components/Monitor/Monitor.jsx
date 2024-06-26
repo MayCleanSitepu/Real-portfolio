@@ -1,5 +1,6 @@
 import React from 'react';
-import { useGLTF, Html } from '@react-three/drei';
+import { useGLTF, Html, Edges } from '@react-three/drei';
+
 
 export default function Monitor(props) {
   const { nodes, materials } = useGLTF('medias/gwe.glb');
@@ -11,7 +12,11 @@ export default function Monitor(props) {
           receiveShadow
           geometry={nodes.Cube008_1.geometry}
           material={materials['Material.005']}
-        />
+        >
+          <Edges threshold={70} lineWidth={1} scale={1.1} renderOrder={1000}>
+                  <meshBasicMaterial transparent color="#ffffff" depthTest={false} />
+          </Edges>
+        </mesh>
         <mesh
           castShadow
           receiveShadow
