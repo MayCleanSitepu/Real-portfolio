@@ -45,17 +45,15 @@ export default function Home() {
     // </main>
 
     <>
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <div>
-        <h1 className="text-white text-9xl self-center">iNi PoRtFoliO</h1>
-        <br/>
-        <br/>
-        <h2 className="text-white text-8xl self-center">May Clean</h2>
-        <br/>
-        <br/>
-        <h2 className="text-white text-7xl items-center">🙏🏻</h2>
-      </div>
+  <div className="flex flex-col items-center justify-center min-h-screen">
+    <div>
+      <h1 className="text-white text-9xl text-center">This Page</h1>
+      <br/>
+      <h2 className="text-white text-8xl text-center">🔧Is Under Maintenance🔧</h2>
+      <br/>
+      <h2 className="text-white text-7xl text-center">🙏🏻</h2>
     </div>
-  </>
+  </div>
+</>
   )
 }
