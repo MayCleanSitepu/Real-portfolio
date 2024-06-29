@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/public/pixelcomp.ico "/>
       </Head>
       <body className={inter.className}>
+          <Navbar />
         <div className='container mx-auto px-8'>
-        <Navbar />
         </div>
         {children}
       </body>
