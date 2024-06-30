@@ -19,7 +19,7 @@ const Index = () => {
               <p className='pb-4 text-[#565261] font-light text-lg backdrop-blur-md 
                             hover:border hover:border-dashed hover:border-gray-300 hover:p-2
                             border-transparent'>
-                Hi, I'm May Clean Sitepu. I'm a fullstack developer based in Indonesia. I'm a self-taught developer who is passionate about learning new things and building cool stuff. 
+                Hi, I&apos;m May Clean Sitepu. I&apos;m a fullstack developer based in Indonesia. I&apos;m a self-taught developer who is passionate about learning new things and building cool stuff. 
               </p>
 
 

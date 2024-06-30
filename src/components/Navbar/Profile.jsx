@@ -4,10 +4,10 @@ import {User, Link} from "@nextui-org/react";
 const profile = () => {
   return (
     <User   
-      name="Junior Garcia"
+      name="May Clean"
       description={(
         <Link href="https://twitter.com/jrgarciadev" size="sm" isExternal>
-          @jrgarciadev
+          @klinnn
         </Link>
       )}
       avatarProps={{
