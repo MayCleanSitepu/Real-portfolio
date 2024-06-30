@@ -6,7 +6,7 @@ const profile = () => {
     <User   
       name="May Clean"
       description={(
-        <Link href="https://twitter.com/jrgarciadev" size="sm" isExternal>
+        <Link href="https://instagram.com/ey_kean" size="sm" isExternal>
           @klinnn
         </Link>
       )}

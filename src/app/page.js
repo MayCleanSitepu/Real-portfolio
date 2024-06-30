@@ -9,7 +9,7 @@ import Scene from '@/components/Scene/Scene';
 import ParticlesBackground from '@/components/ParticlesBackground/ParticlesBackground';
 import Tech from '../components/Tech';
 import Edu from '@/components/Edu/Edu';
-import maintenance from '@/components/maintenance/maintenance';
+import Maintenance from '@/components/Maintenance/maintenance';
 
 
 
@@ -43,7 +43,7 @@ export default function Home() {
       {/* <Hero/>  */}
       {/* <Edu/> */}
       {/* <Tech/>  */}
-      <maintenance/>
+      <Maintenance/>
     </main>
 
 
