@@ -35,15 +35,15 @@ export default function Home() {
 
   return (
     <main class=" overflow-x-hidden text-neutral-300 antialiased selection:bg-slate-300 selection:text-cyan-900">
-      <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
       <AnimatePresence mode='wait'>
         {isLoading &&  <Preloader/>}
       </AnimatePresence>
       {/* <Scene/> */}
-      {/* <Hero/>  */}
-      {/* <Edu/> */}
-      {/* <Tech/>  */}
-      <Maintenance/>
+      <div class="absolute inset-0 -z-10 h-[500vh] w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+      <Hero/> 
+      {/* <Edu/> */}  
+      <Tech/> 
+      {/* <Maintenance/> */}
     </main>
 
 
