@@ -20,7 +20,7 @@ export default function Kartu() {
         grabCursor={true}
         pagination={true}
         modules={[EffectCards, Pagination]}
-        className=" ml-0 h-60 w-[30rem]"
+        className=" lg:h-60 lg:w-[30rem] lg:mr-5 h-40 w-[19rem] ml-auto "
       >
         <SwiperSlide className="border-2 border-dashed border-[#949494]">Slide 1</SwiperSlide>
         <SwiperSlide className="border-2 border-dashed border-[#949494]">Slide 2</SwiperSlide>
