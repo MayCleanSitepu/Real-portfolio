@@ -10,6 +10,8 @@ import ParticlesBackground from '@/components/ParticlesBackground/ParticlesBackg
 import Tech from '../components/Tech';
 import Edu from '@/components/Edu/Edu';
 import Maintenance from '@/components/Maintenance/maintenance';
+import Education from '@/components/Project';
+import Projects from '@/components/Project';
 
 
 
@@ -44,6 +46,8 @@ export default function Home() {
       {/* <Edu/> */}  
       <Tech/> 
       {/* <Maintenance/> */}
+
+      <Projects/>
     </main>
 
 

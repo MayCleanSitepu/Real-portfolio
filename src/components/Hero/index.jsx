@@ -9,7 +9,7 @@ import Kartu from './Kartu';
 
 const Index = () => {
   return (
-    <div className='mt-40 pb-28 lg:pb-1  lg:mb-35'>
+    <div className='mt-16 pb-28 lg:pb-1  lg:mb-35'>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-start lg:items-start'>
