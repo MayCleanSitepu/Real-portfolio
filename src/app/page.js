@@ -36,7 +36,7 @@ export default function Home() {
   
 
   return (
-    <main class=" overflow-x-hidden text-neutral-300 antialiased selection:bg-slate-300 selection:text-cyan-900">
+    <main class=" overflow-x-hidden overflow-y-hidden text-neutral-300 antialiased selection:bg-slate-300 selection:text-cyan-900">
       <AnimatePresence mode='wait'>
         {isLoading &&  <Preloader/>}
       </AnimatePresence>

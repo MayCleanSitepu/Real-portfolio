@@ -32,10 +32,10 @@ export default function App() {
           ◑ Klinn
           </div>
           <div id="item" className="fixed ease-out duration-300 sm:top-0 w-full left-0 sm:py-0 pt-7 pb-4 dm:mx-0 z-40 flex-col items-center justify-start hidden h-auto text-sm sm:text-base sm:h-auto sm:relative sm:flex-row sm:flex sm:text-sm sm:w-auto sm:pr-0 sm:pt-0 top-[75px]">
-  <Link className="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">Home</Link>
-  <Link className="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">About</Link>
-  <Link className="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">Projects</Link>
-  <Link className="relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto"> <Profile /> </Link>
+  <Link className="cursor-pointer relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">Home</Link>
+  <Link className="cursor-pointer relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">About</Link>
+  <Link className="cursor-pointer relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">Projects</Link>
+  <Link className="cursor-pointer relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto"> <Profile /> </Link>
 </div>
       </div>
     </header>

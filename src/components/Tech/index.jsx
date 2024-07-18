@@ -30,7 +30,7 @@ const Tech = () => {
 
   return (
     <div>
-      <h1 className='my-10 text-center text-4xl font-bold text-[#666666]'> Tech Stacks</h1>
+      <h1 className='mt-2 mb-10 text-center text-4xl font-bold text-[#666666]'> Tech Stacks</h1>
       <div className='mb-10 m-auto flex flex-wrap items-center justify-center gap-4 sm:gap-10 w-full sm:w-2/4'>
         {/* list tech stacks */}
         <div className='rounded-2xl border-2 border-neutral-600 p-2 sm:p-4' data-aos="fade-down">

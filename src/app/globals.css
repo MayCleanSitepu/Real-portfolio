@@ -62,6 +62,31 @@ body{
   }
 }
 
+@keyframes rotate-circle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-circle2 {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .animate-spin-grow {
   animation: spin-and-grow 0.5s ease-in-out;
+}
+
+.rotate-circle {
+  animation: rotate-circle 50s linear infinite;
+}
+.rotate-circle2 {
+  animation: rotate-circle2 50s linear infinite;
 }
