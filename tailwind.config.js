@@ -1,3 +1,5 @@
+const { Catamaran } = require('next/font/google');
+
 // tailwind.config.js
 module.exports = {
   content: [
@@ -35,6 +37,7 @@ module.exports = {
         rowdies: ['Rowdies', 'sans-serif'],
         borel: ['Borel'],
         paytone_one: ['Paytone One'],
+        Catamaran: ['Catamaran'],
       },
     },
   },

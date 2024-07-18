@@ -18,6 +18,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { SiDaisyui } from "react-icons/si";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Horizontal from '../Partial';
 
 
 const Tech = () => {
@@ -28,9 +29,9 @@ const Tech = () => {
  
 
   return (
-    <div className='border-b border-neutral-800 pb-24'>
-      <h1 className='my-20 text-center text-4xl font-bold text-[#666666]'> Tech Stacks</h1>
-      <div className='m-auto flex flex-wrap items-center justify-center gap-4 sm:gap-10 w-full sm:w-2/4'>
+    <div>
+      <h1 className='my-10 text-center text-4xl font-bold text-[#666666]'> Tech Stacks</h1>
+      <div className='mb-10 m-auto flex flex-wrap items-center justify-center gap-4 sm:gap-10 w-full sm:w-2/4'>
         {/* list tech stacks */}
         <div className='rounded-2xl border-2 border-neutral-600 p-2 sm:p-4' data-aos="fade-down">
           <RiReactjsLine className='text-4xl sm:text-7xl text-cyan-400'/>
@@ -102,7 +103,9 @@ const Tech = () => {
         
       </div>
 
+      <Horizontal/>
       </div>
+
   )
 }
 

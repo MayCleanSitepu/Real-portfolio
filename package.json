@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
     "@nextui-org/navbar": "^2.0.33",
     "@nextui-org/react": "^2.4.2",
     "@react-three/drei": "^9.106.0",

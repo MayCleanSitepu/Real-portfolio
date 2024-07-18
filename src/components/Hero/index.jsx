@@ -5,11 +5,12 @@ import Themonitor from '../Themonitor/Themonitor';
 import { Rowdies } from 'next/font/google';
 import Link from 'next/link';
 import Kartu from './Kartu';
+import Horizontal from '../Partial/index';
 
 
 const Index = () => {
   return (
-    <div className='mt-16 pb-28 lg:pb-1  lg:mb-35'>
+    <div className='mt-12 pb-28 lg:pb-1  lg:mb-35'>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-start lg:items-start'>
@@ -58,11 +59,7 @@ const Index = () => {
           <Themonitor/>
         </div>
       </div>
-      <div className="flex text-black items-center justify-between">
-        <div className="w-1/2 border-[#999999] border-t border-dashed"></div>
-        <div className="w-8 h-8 border-[#d6d6d6] cursor-default rounded-full flex items-center justify-center border-2">◑</div>
-        <div className="w-1/2 border-[#999999] border-t border-dashed"></div>
-      </div>
+      <Horizontal/>
     </div>
     
   );

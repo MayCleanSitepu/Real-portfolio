@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="icon" href="/public/pixelcomp.ico "/>
+        
       </Head>
       <body className={inter.className}>
           <Navbar />
