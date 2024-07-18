@@ -10,7 +10,7 @@ import Horizontal from '../Partial/index';
 
 const Index = () => {
   return (
-    <div className='mt-12 pb-5 lg:pb-1 sm:mb-5 mb-20'>
+    <div className='mt-12 pb-5 lg:pb-1 sm:mb-5 md:mb-10 lg:mb-10 '>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-start lg:items-start'>

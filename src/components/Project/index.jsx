@@ -34,8 +34,8 @@ const Projects = () => {
     />
 
     <Horizontal/>
-    
-    <div className="flex justify-center items-center">
+
+    <div className="flex justify-center items-center my-20">
       <Image
         id="circle1"
         alt="Lingkaran Besar"
