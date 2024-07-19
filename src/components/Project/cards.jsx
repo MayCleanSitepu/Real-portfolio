@@ -69,6 +69,7 @@ const ProjectCard = ({ name, title, desc, date, views, imageSrc, fakeDigit, fake
               width={500}
               height={700}
               className="select-none"
+              loading="lazy"
             />
           </div>
         </div>

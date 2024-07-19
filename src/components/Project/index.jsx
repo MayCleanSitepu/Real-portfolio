@@ -40,6 +40,7 @@ const Projects = () => {
         id="circle1"
         alt="Lingkaran Besar"
         src="/assets/ring2.svg"
+        loading="lazy"
         width={500}
         height={500}
         className="rotate-circle absolute w-[90%]  sm:w-[70%] md:h-[60%] md:w-[60%]"
@@ -48,10 +49,14 @@ const Projects = () => {
         id="circle2"
         alt="Lingkaran Kecil"
         src="/assets/ring2.svg"
+        loading="lazy"
         width={350}
         height={350}
         className="rotate-circle2 w-[65%] sm:w-[50%] md:h-[40%] md:w-[40%]"
         style={{ zIndex: 1 }}/>
+
+        <h1 className="absolute text-[#373737] font-bold text-4xl z-10 items-center">Summon CV</h1>
+        <h1 className="absolute mt-20 text-[#373737] font-bold text-4xl ">✨</h1>
     </div>
         
     </>

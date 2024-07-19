@@ -10,7 +10,7 @@ import Horizontal from '../Partial/index';
 
 const Index = () => {
   return (
-    <div className='mt-12 pb-5 lg:pb-1 sm:mb-5 md:mb-10 lg:mb-10 '>
+    <div className='mt-24 pb-5 lg:pb-1 sm:mb-5 md:mb-10 lg:mb-10 '>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-start lg:items-start'>
@@ -24,7 +24,7 @@ const Index = () => {
                             border-transparent'>
                 Hi, I&apos;m May Clean Sitepu. I&apos;m a fullstack developer based in Indonesia. I&apos;m a self-taught developer who is passionate about learning new things and building cool stuff. 
               </p>
-              <div className="mt-10 flex items-start justify-start self-start">
+              <div className="my-20 flex items-start justify-start self-start">
                 <Kartu/>
               </div>
               {/* <div>
@@ -47,7 +47,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className='w-full lg:w-1/2 lg:p-8 flex justify-center'>
+        <div className='w-full lg:w-1/2 lg:p-8 mb-20 flex justify-center'>
           {/* <Image
             className='rounded-lg w-48 h-48 lg:w-[400px] lg:h-[250px]'
             src='/assets/meklin.JPG'
