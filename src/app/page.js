@@ -9,7 +9,7 @@ import Scene from '@/components/Scene/Scene';
 import ParticlesBackground from '@/components/ParticlesBackground/ParticlesBackground';
 import Tech from '../components/Tech';
 import Edu from '@/components/Edu/Edu';
-import Maintenance from '@/components/Maintenance/maintenance';
+
 import Education from '@/components/Project';
 import Projects from '@/components/Project';
 
