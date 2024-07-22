@@ -1,5 +1,6 @@
 import React from "react";
-import {Tooltip, Button} from "@nextui-org/react";
+import { Tooltip, Button } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function App() {
   return (
@@ -11,9 +12,14 @@ export default function App() {
         </div>
       }
     >
-      <Button href="/blogs" variant="bordered" className="bg-[#373737] rounded-xl font-semibold">
-        Show more
-      </Button>
+      <Link href="/blogs" passHref>
+        <Button
+          variant="bordered"
+          className="bg-[#373737] rounded-xl font-semibold"
+        >
+          Show more
+        </Button>
+      </Link>
     </Tooltip>
   );
 }

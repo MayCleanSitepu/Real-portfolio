@@ -1,6 +1,6 @@
 import React from 'react'
 
-const maintenance = () => {
+const Maintenance = () => {
   return (
     <>
   <div className="flex flex-col items-center justify-center min-h-screen">
@@ -16,4 +16,4 @@ const maintenance = () => {
   )
 }
 
-export default maintenance
+export default Maintenance

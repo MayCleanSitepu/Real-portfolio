@@ -37,13 +37,13 @@ const Projects = () => {
       />
       <ProjectCard
         name="May Clean S."
-        title="Muhammadiyah Web Content Collaboration"
+        title="3D Scene Animation with blender"
         desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
-        date="Jun 24"
-        views="10.3k"
+        date="Jun 1"
+        views="100.3k"
         imageSrc="/assets/mwcc2.png"
-        fakeDigit={1}
-        fakeCount={8}
+        fakeDigit={30}
+        fakeCount={2}
       />
       <div className="my-20 flex justify-center items-center">
         <Showmore />
