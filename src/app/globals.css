@@ -5,8 +5,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rowdies:wght@300;400;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
 
-body{
+*,body{
   margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   cursor: wait;
   cursor: url('/public/crosshair.png'), auto;
 }
@@ -80,6 +82,15 @@ body{
   }
 }
 
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(120deg);
+  }
+}
+
 .animate-spin-grow {
   animation: spin-and-grow 0.5s ease-in-out;
 }
@@ -89,4 +100,7 @@ body{
 }
 .rotate-circle2 {
   animation: rotate-circle2 50s linear infinite;
+}
+.circle-btn-hover:hover {
+  animation: rotateAnimation 50s ease-in-out forwards;
 }

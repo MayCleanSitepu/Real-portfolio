@@ -10,7 +10,7 @@ import Horizontal from '../Partial/index';
 
 const Index = () => {
   return (
-    <div className='mt-24 pb-5 lg:pb-1 sm:mb-5 md:mb-10 lg:mb-10 '>
+    <div className='mt-10 pb-5 lg:pb-1 sm:mb-5 md:mb-10 lg:mb-10 '>
       <div className='flex flex-col lg:flex-row'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-start lg:items-start'>
@@ -18,7 +18,7 @@ const Index = () => {
                   <h1 className='ml-10 mt-8'>May Clean Sitepu</h1>
             </div>
                   {/* While everyone else is trying to center their divs, Im already centered. Im different. */}
-            <div className='lg:my-0 lg:ml-[20rem] pb-4 lg:ps-10 text-[#565261]'>
+            <div id="about" className='lg:my-0 lg:ml-[20rem] pb-4 lg:ps-10 text-[#565261]'>
               <p className='lg:px-0  px-[3rem] pb-4 text-[#565261] font-light text-lg backdrop-blur-md 
                             hover:border hover:border-dashed hover:border-gray-300 hover:p-2
                             border-transparent'>

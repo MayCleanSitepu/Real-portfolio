@@ -12,6 +12,7 @@ import Edu from '@/components/Edu/Edu';
 
 import Education from '@/components/Project';
 import Projects from '@/components/Project';
+import Summon from '@/components/Summon';
 
 
 
@@ -48,6 +49,7 @@ export default function Home() {
       {/* <Maintenance/> */}
 
       <Projects/>
+      <Summon/>
     </main>
 
 

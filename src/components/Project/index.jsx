@@ -1,76 +1,57 @@
-import React from 'react'
-import ProjectCard from './cards'
-import Image from 'next/image'
-import Horizontal from '../Partial'
+import React from "react";
+import ProjectCard from "./cards";
+import Image from "next/image";
+import Horizontal from "../Partial";
+import Showmore from "../Partial/Tooltip";
 
 const Projects = () => {
   return (
     <>
-    <div
+      <div
         id="konten"
         className="flex flex-col justify-center items-center mt-5"
       >
-        <h1 id="projects" className="text-[#373737] text-4xl font-[900]">Projects</h1>
+        <h1 id="projects" className="text-[#373737] text-4xl font-[900]">
+          Projects
+        </h1>
       </div>
       <ProjectCard
-      name="Jose Morinho"
-      title="Muhammadiyah Web Content Collaboration"
-      desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
-      date="Jun 24"
-      views="10.3k"
-      imageSrc="/assets/mwcc2.png"
-      fakeDigit={10}
-      fakeCount={4}
-    />
-      <ProjectCard
-      name="Jose Morinho"
-      title="Muhammadiyah Web Content Collaboration"
-      desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
-      date="Jun 24"
-      views="10.3k"
-      imageSrc="/assets/mwcc2.png"
-      fakeDigit={1}
-      fakeCount={8}
-    />
-      <ProjectCard
-      name="Jose Morinho"
-      title="Muhammadiyah Web Content Collaboration"
-      desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
-      date="Jun 24"
-      views="10.3k"
-      imageSrc="/assets/mwcc2.png"
-      fakeDigit={1}
-      fakeCount={8}
-    />
-
-    <Horizontal/>
-
-    <div className="flex justify-center items-center my-20">
-      <Image
-        id="circle1"
-        alt="Lingkaran Besar"
-        src="/assets/ring2.svg"
-        loading="lazy"
-        width={500}
-        height={500}
-        className="rotate-circle absolute w-[90%]  sm:w-[70%] md:h-[60%] md:w-[60%]"
+        name="May Clean S."
+        title="Muhammadiyah Web Content Collaboration"
+        desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
+        date="Jul 12"
+        views="10.3k"
+        imageSrc="/assets/mwcc2.png"
+        fakeDigit={10}
+        fakeCount={4}
       />
-      <Image
-        id="circle2"
-        alt="Lingkaran Kecil"
-        src="/assets/ring2.svg"
-        loading="lazy"
-        width={350}
-        height={350}
-        className="rotate-circle2 w-[65%] sm:w-[50%] md:h-[40%] md:w-[40%]"
-        style={{ zIndex: 1 }}/>
+      <ProjectCard
+        name="May Clean S."
+        title="Pionir Gadjah Mada 2024 Official Website"
+        desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
+        date="Jun 24"
+        views="32.5k"
+        imageSrc="/assets/pionir.png"
+        fakeDigit={50}
+        fakeCount={8}
+      />
+      <ProjectCard
+        name="May Clean S."
+        title="Muhammadiyah Web Content Collaboration"
+        desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
+        date="Jun 24"
+        views="10.3k"
+        imageSrc="/assets/mwcc2.png"
+        fakeDigit={1}
+        fakeCount={8}
+      />
+      <div className="my-20 flex justify-center items-center">
+        <Showmore />
+      </div>
 
-        <h1 className="absolute text-[#373737] font-bold text-4xl z-10 items-center">Summon CV</h1>
-        <h1 className="absolute mt-20 text-[#373737] font-bold text-4xl ">♠️</h1>
-    </div>
-        
+      <Horizontal />
     </>
-  )
-}
+  );
+};
 
 export default Projects;
