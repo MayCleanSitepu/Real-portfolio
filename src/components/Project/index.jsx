@@ -16,6 +16,7 @@ const Projects = () => {
         </h1>
       </div>
       <ProjectCard
+        routeLink="/project/1"
         name="May Clean S."
         title="Muhammadiyah Web Content Collaboration"
         desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
@@ -26,6 +27,7 @@ const Projects = () => {
         fakeCount={4}
       />
       <ProjectCard
+      routeLink="/project/1"
         name="May Clean S."
         title="Pionir Gadjah Mada 2024 Official Website"
         desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
@@ -36,6 +38,7 @@ const Projects = () => {
         fakeCount={8}
       />
       <ProjectCard
+      routeLink="/project/1"
         name="May Clean S."
         title="3D Scene Animation with blender"
         desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
