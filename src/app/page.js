@@ -51,7 +51,7 @@ export default function Home() {
       <Projects/>
       <Summon/>
 
-      <iframe src="https://www.google.com/maps/d/embed?mid=1mibpgdICTAiAxz_XW4usPBwv5v3a0pE&ehbc=2E312F" width="640" height="480"></iframe>
+      {/* <iframe src="https://www.google.com/maps/d/embed?mid=1mibpgdICTAiAxz_XW4usPBwv5v3a0pE&ehbc=2E312F" width="640" height="480"></iframe> */}
     </main>
 
 
