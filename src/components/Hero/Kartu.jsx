@@ -28,7 +28,7 @@ export default function Kartu() {
                 ♦
               </h1>
             </div>
-            <h1 className="text-[#373737] flex justify-center ">20 Tahun</h1>
+            <h1 className="text-[#373737] flex justify-center ">20 Y.O</h1>
             <div className="text-[#373737]">
               <h1 className="absolute bottom-3 right-6 rotate-90 text-[#f95858]">
                 ♦
@@ -78,7 +78,7 @@ export default function Kartu() {
               </h1>
             </div>
             <div className="flex flex-col items-center sm:mb-5 mb-20">
-              <h1 className="text-[#373737] flex justify-center text-center ">
+              {/* <h1 className="text-[#373737] flex justify-center text-center ">
                 Contact Me
               </h1>
               <button
@@ -89,7 +89,7 @@ export default function Kartu() {
                 }
               >
                 📩
-              </button>
+              </button> */}
               <h1 className="absolute bottom-3 right-6 rotate-90 text-[#f95858]">
                 ♥
               </h1>
