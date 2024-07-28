@@ -62,6 +62,7 @@ const ProjectCard = ({
                 <p className="text-[#373737] font-medium line-clamp-3 cursor-pointer">
                   {desc}
                 </p>
+                
                 <div className="flex flex-row justify-between items-center cursor-pointer">
                   <div className="flex flex-row gap-2">
                     <div className="flex flex-row items-center gap-2">
