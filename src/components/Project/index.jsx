@@ -11,15 +11,20 @@ const Projects = () => {
         id="konten"
         className="flex flex-col justify-center items-center mt-5"
       >
-        <h1 id="projects" className="text-[#373737] text-4xl font-[900]">
-          Projects
-        </h1>
+        <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-400 relative inline-block">
+          <h1
+            id="Projects"
+            className="text-[#373737] relative text-4xl font-[900] "
+          >
+            Projects
+          </h1>
+        </span>
       </div>
       <ProjectCard
         routeLink="/project/Mwcc"
         name="May Clean S."
         title="Muhammadiyah Web Content Collaboration"
-        desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
+        desc="The Muhammadiyah Web Content Collaboration project is a web platform designed to support collaboration in the creation and development of Muhammadiyah studies. This platform allows users to create, edit, and publish studies collaboratively, similar to the forking mechanism on GitHub."
         date="Jul 12"
         views="10.3k"
         imageSrc="/assets/mwcc2.png"
@@ -27,10 +32,10 @@ const Projects = () => {
         fakeCount={4}
       />
       <ProjectCard
-      routeLink="/project/2"
+        routeLink="/project/2"
         name="May Clean S."
         title="Pionir Gadjah Mada 2024 Official Website"
-        desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
+        desc="Universitas Gadjah Mada's official student orientation website as a foundational introduction to the academic, social, and event activiy timeline of the university, equipping new students with essential resources and guidance for a successful academic journey."
         date="Jun 24"
         views="32.5k"
         imageSrc="/assets/pionir.png"
@@ -38,13 +43,13 @@ const Projects = () => {
         fakeCount={8}
       />
       <ProjectCard
-      routeLink="/project/3"
+        routeLink="/project/3"
         name="May Clean S."
         title="3D Scene Animation with blender"
-        desc="Garbage collection in Python is the process of automatically identifying and reclaiming memory that is no longer in use by the program. This helps to manage memory efficiently and prevent memory leaks."
+        desc="Low poly animation with 3D Software blender, creating a 3D scene with a low poly style, including a building, tree, animal and character."
         date="Jun 1"
         views="100.3k"
-        imageSrc="/assets/mwcc2.png"
+        imageSrc="/assets/Kereta.jpg"
         fakeDigit={30}
         fakeCount={2}
       />

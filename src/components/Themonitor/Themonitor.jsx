@@ -1,12 +1,31 @@
 'use client'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Environment, PresentationControls, ContactShadows } from '@react-three/drei';
 import Monitor from '../Monitor/Monitor';
 
 export default function Themonitor() {
+    const [canvasHeight, setCanvasHeight] = useState('70vh');
+
+    useEffect(() => {
+        const updateCanvasHeight = () => {
+            if (window.innerWidth <= 480) {
+                setCanvasHeight('40vh');
+            } else if (window.innerWidth <= 768) {
+                setCanvasHeight('50vh');
+            } else {
+                setCanvasHeight('70vh');
+            }
+        };
+
+        window.addEventListener('resize', updateCanvasHeight);
+        updateCanvasHeight(); 
+
+        return () => window.removeEventListener('resize', updateCanvasHeight);
+    }, []);
+
     return (
-        <Canvas style={{ height: "70vh" }} className='overflow-x-hidden' shadows camera={{ position: [0, 0, 10], fov: 25 }}>  
+        <Canvas style={{ height: canvasHeight }} className='overflow-x-hidden' shadows camera={{ position: [0, 0, 10], fov: 25 }}>  
             <ambientLight intensity={20} />
             <spotLight intensity={20} position={[10, 10, 10]} angle={0.15} penumbra={1} shadow-mapSize={2048} castShadow />
             
