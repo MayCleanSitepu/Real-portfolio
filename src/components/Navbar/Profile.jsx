@@ -7,7 +7,7 @@ const profile = () => {
       className="text-black dark:text-white"
       name="May Clean"
       description={(
-        <Link href="https://instagram.com/ey_kean" size="sm" isExternal className="text-black">
+        <Link href="https://instagram.com/ey_kean" size="sm" isExternal className="text-black dark:text-white">
           @klinnn
         </Link>
       )}
