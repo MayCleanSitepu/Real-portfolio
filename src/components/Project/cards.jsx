@@ -6,6 +6,8 @@ import Img from "next/image";
 import { useState, useEffect } from "react";
 import Horizontal from "../Partial";
 import Link from "next/link";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ProjectCard = ({
   name,
@@ -37,9 +39,13 @@ const ProjectCard = ({
     }
   }, [isAnimating]);
 
+  useEffect(()=>{
+    AOS.init();
+  },[])
+
   return (
     <>
-      <div className="flex flex-col items-center w-full p-5 md:p-10">
+      <div data-aos="fade-up" className="flex flex-col items-center w-full p-5 md:p-10">
         <div className="flex flex-col w-full max-w-3xl gap-5">
           <div className="flex flex-row gap-2 select-none cursor-pointer">
             <Img

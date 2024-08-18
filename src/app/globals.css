@@ -123,3 +123,35 @@ html,body {
       width: 60vh;
   }
 } */
+
+.autoshow{
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+
+@keyframes autoShowAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform:  translateY(0) scale(1);
+  }
+}
+
+.autoBlur{
+  animation: autoBlurAnimation linear both;
+  animation-timeline: view();
+}
+@keyframes autoBlur {
+  0%{
+    filter: blur(30px);
+  }
+  45%, 55%{
+    filter: blur(0px);
+  }
+  100%{
+    filter: blur(30px);
+  }
+}

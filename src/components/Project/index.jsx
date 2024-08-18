@@ -9,7 +9,8 @@ const Projects = () => {
     <>
       <div
         id="konten"
-        className="flex flex-col justify-center items-center mt-5"
+        data-aos="fade-up"
+        className=" flex flex-col justify-center items-center mt-5"
       >
         <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-400 relative inline-block">
           <h1
