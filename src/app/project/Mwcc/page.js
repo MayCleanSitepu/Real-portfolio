@@ -1,10 +1,10 @@
-import Medium from '@/components/Medium'
+import Mmwcc from '@/components/Medium/mwcc'
 import React from 'react'
 
 function Mwcc() {
   return (
     <>
-        <Medium/>
+        <Mmwcc/>
     </>
   )
 }

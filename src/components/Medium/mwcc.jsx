@@ -1,8 +1,9 @@
 import React from "react";
 import { HC1, HC2, HC3, HCL1, HCL2 } from "./constant";
 import Image from "next/image";
+import {Link} from "@nextui-org/react";
 
-const Medium = () => {
+const Mmwcc = () => {
   return (
     <>
       <div id="container" className="bg-white dark:bg-neutral-900/60 mt-20 flex flex-col items-center ">
@@ -30,7 +31,7 @@ const Medium = () => {
             </div>
           </div>
           {/*HERO START */}
-          <div id="Hero" className="">
+          <div id="Hero" className="mb-20">
             <div className="flex justify-center">
               <Image
                 src="/assets/mwcc2.png"
@@ -40,6 +41,14 @@ const Medium = () => {
                 className="rounded-sm mb-10"
               />
             </div>
+            <Link
+              className="flex justify-center mb-10"
+              isExternal
+              href="https://dev.mwcc.masmoendigital.store/"
+              showAnchorIcon
+            >
+              Visit MWCC Website
+            </Link>
             <p
               className="text-[#242424] dark:text-[#ebebeb] text-base sm:text-lg tracking-wide">
               {HC1}
@@ -76,4 +85,4 @@ const Medium = () => {
   );
 };
 
-export default Medium;
+export default Mmwcc;

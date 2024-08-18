@@ -5,9 +5,9 @@ import { IoMdHeart } from "react-icons/io";
 import Img from "next/image";
 import { useState, useEffect } from "react";
 import Horizontal from "../Partial";
-import Link from "next/link";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {Tooltip, Link} from "@nextui-org/react";
 
 const ProjectCard = ({
   name,
@@ -19,6 +19,9 @@ const ProjectCard = ({
   fakeDigit,
   fakeCount,
   routeLink,
+  goTo,
+  goToLink,
+  bool,
 }) => {
   const [isLiked, setIsLiked] = useState(false);
   const [likeCount, setIsLikeCount] = useState(fakeCount);
@@ -62,6 +65,8 @@ const ProjectCard = ({
           </div>
           <div className="flex flex-col md:flex-row gap-5 w-full">
             <div className="flex flex-col gap-3 w-full">
+
+              
               <Link href={routeLink} className="cursor-pointer">
                 <h2 className="font-bold text-2xl text-[#373737] cursor-pointer hover:bg-gradient-to-r from-[#EFF02E] via-[# F0CA32] to-[#e06500] animate-gradient-x bg-clip-text hover:text-transparent ease-in duration-300">
                   {title}
@@ -83,6 +88,16 @@ const ProjectCard = ({
                       {views}
                     </h1>
                   </div>
+                </div>
+                <div>
+                <Link
+                  className="text-[#373737] hover:text-blue-600 font-medium cursor-pointer"
+                  isExternal
+                  href={goToLink}
+                  showAnchorIcon={bool}
+                >
+                  {goTo}
+                </Link>
                 </div>
                 <div
                   onClick={handleLikeToggle}

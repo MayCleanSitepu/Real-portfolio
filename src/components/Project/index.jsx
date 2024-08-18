@@ -31,9 +31,12 @@ const Projects = () => {
         imageSrc="/assets/mwcc2.png"
         fakeDigit={10}
         fakeCount={4}
+        goTo="Visit"
+        goToLink="https://dev.mwcc.masmoendigital.store/"
+        bool={true}
       />
       <ProjectCard
-        routeLink="/project/2"
+        routeLink="/project/PionirUgm"
         name="May Clean S."
         title="Pionir Gadjah Mada 2024 Official Website"
         desc="Universitas Gadjah Mada's official student orientation website as a foundational introduction to the academic, social, and event activiy timeline of the university, equipping new students with essential resources and guidance for a successful academic journey."
@@ -42,7 +45,26 @@ const Projects = () => {
         imageSrc="/assets/pionir.png"
         fakeDigit={50}
         fakeCount={8}
+        goTo="Visit"
+        goToLink="https://pionir.ugm.ac.id/2024/"
+        bool={true}
       />
+
+      <ProjectCard
+        routeLink="/project/appleClone"
+        name="May Clean S."
+        title="Apple Clone Website Using React" 
+        desc=" Building a clone of the Apple website using React, Tailwind CSS, GSAP, React ThreeFiber. The project includes a homepage layout and animation, with a responsive design for mobile and desktop."
+        date="Aug 15"
+        views="3.1k"
+        imageSrc="/assets/apple-clone.jpg"
+        fakeDigit={1}
+        fakeCount={0}
+        goTo="Visit"
+        goToLink="https://project-apple-clone.klinnn.xyz/"
+        bool={true}
+      />
+
       <ProjectCard
         routeLink="/project/3"
         name="May Clean S."
@@ -53,6 +75,9 @@ const Projects = () => {
         imageSrc="/assets/Kereta.jpg"
         fakeDigit={30}
         fakeCount={2}
+        goTo=""
+        goToLink=""
+        bool={false}
       />
       <div className="my-20 flex justify-center items-center">
         <Showmore />
