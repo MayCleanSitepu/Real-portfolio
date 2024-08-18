@@ -5,7 +5,7 @@ import Image from "next/image";
 const Medium = () => {
   return (
     <>
-      <div id="container" className="bg-white dark:bg-slate-800 mt-20 flex flex-col items-center ">
+      <div id="container" className="bg-white dark:bg-neutral-900/60 mt-20 flex flex-col items-center ">
         <div className=" flex flex-col gap-10 max-w-[680px] px-10">
           <div id="grupAtas" className="flex flex-col gap-4">
             <div id="title" className="">
@@ -45,10 +45,10 @@ const Medium = () => {
               {HC1}
             </p>
             <br />
-            <p className="text-[#242424] dark:text-[#ebebeb] text-base sm:text-lg tracking-wide">{HC2}</p>
+            {/* <p className="text-[#242424] dark:text-[#ebebeb] text-base sm:text-lg tracking-wide">{HC2}</p>
             <br />
             <p className="text-[#2e2e2e] dark:text-[#ebebeb] text-base sm:text-lg tracking-wide">{HC3}</p>
-            <br />
+            <br /> */}
             <h1 className="ms-5 font-bold text-xl text-[#242424] dark:text-[#ebebeb] tracking-wide">
               Main Feature
             </h1>

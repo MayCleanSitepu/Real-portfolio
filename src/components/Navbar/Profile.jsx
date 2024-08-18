@@ -4,7 +4,7 @@ import {User, Link} from "@nextui-org/react";
 const profile = () => {
   return (
     <User   
-      className="text-black"
+      className="text-black dark:text-white"
       name="May Clean"
       description={(
         <Link href="https://instagram.com/ey_kean" size="sm" isExternal className="text-black">
