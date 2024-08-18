@@ -14,6 +14,7 @@ export default function App() {
     >
       <Link href="/blogs" passHref>
         <Button
+          data-aos="fade-up" 
           variant="bordered"
           className="bg-[#373737] rounded-xl font-semibold"
         >
