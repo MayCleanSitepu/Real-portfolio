@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <header className="top-0 z-50 w-[99vw] fixed h-14">
-      <div id="base-navbar" className={isScrolled ? 
+      {/* <div id="base-navbar" className={isScrolled ? 
         "flex items-center justify-between h-full max-w-5xl pl-6 pr-4 mx-auto border-dashed border-b border-l-0 border-r-0 select-none lg:border-r lg:border-l lg:rounded-b-xl border-neutral-300/50 bg-white/50 dark:border-neutral-600/40 dark:bg-neutral-900/60 backdrop-blur-md" : 
         "flex items-center justify-between h-full max-w-5xl pl-6 pr-4 mx-auto border-b border-l-0 border-r-0 select-none lg:border-r lg:border-l lg:rounded-b-xl border-transparent"}>
         
@@ -45,7 +45,7 @@ export default function App() {
           <Link href="#" className="cursor-pointer relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide text-center duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto hover:text-neutral-500 dark:hover:text-white text-neutral-900 dark:text-white">Summon</Link>
           <Link className="cursor-pointer relative flex items-center justify-center w-full px-3 py-2 font-medium tracking-wide duration-200 ease-out sm:py-0 sm:mb-0 md:w-auto"><Profile /></Link>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 }
