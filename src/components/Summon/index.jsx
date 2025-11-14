@@ -4,8 +4,13 @@ import Image from "next/image";
 function Summon() {
   return (
     <div>
-      <div id="Summon" className="flex justify-center items-center mb-[50px] my-10">
-        <h1 className=" text-[#373737] font-bold sm:text-4xl text-4xl ">🪄 Summon Me 🤝</h1>
+      <div
+        id="Summon"
+        className="flex justify-center items-center mb-[50px] my-10"
+      >
+        <h1 className=" text-[#373737] font-bold sm:text-4xl text-4xl ">
+          🪄 Summon Me 🤝
+        </h1>
       </div>
 
       <div className="flex justify-center items-center">
@@ -35,7 +40,9 @@ function Summon() {
           loading="lazy"
           width={350}
           height={350}
-          onClick={() => window.location.href = 'mailto:maycleansitepu0204@mail.ugm.ac.id'}
+          onClick={() =>
+            (window.location.href = "mailto:maycleansitepu0204@mail.ugm.ac.id")
+          }
           className="absolute cursor-pointer opacity-50  hover:rotate-[120deg] hover:w-[200px] transition-transform duration-[50] ease-in-out w-[150px] sm:w-[50px] md:w-[80px] "
           style={{ zIndex: 20 }}
         />

@@ -12,7 +12,7 @@ const Projects = () => {
         data-aos="fade-up"
         className=" flex flex-col justify-center items-center mt-5"
       >
-        <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-400 relative inline-block">
+        <span className="mt-10 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-400 relative inline-block">
           <h1
             id="Projects"
             className="text-[#373737] relative text-4xl font-[900] "
@@ -53,7 +53,7 @@ const Projects = () => {
       <ProjectCard
         routeLink="/project/appleClone"
         name="May Clean S."
-        title="Apple Clone Website Using React" 
+        title="Apple Clone Website Using React"
         desc=" Building a clone of the Apple website using React, Tailwind CSS, GSAP, React ThreeFiber. The project includes a homepage layout and animation, with a responsive design for mobile and desktop."
         date="Aug 15"
         views="3.1k"

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function CodeEditor() {
   const code = `
@@ -17,13 +17,13 @@ function CodeEditor() {
     }
 }`;
 
-return (
-  <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-56 rounded-lg border-2 border-slate-50 p-4">
-    <pre className="text-gray-300 font-mono break-all sm:text-sm md:text-base lg:text-lg xl:text-xl whitespace-normal">
-      {code}
-    </pre>
-  </div>
-);
+  return (
+    <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-56 rounded-lg border-2 border-slate-50 p-4">
+      <pre className="text-gray-300 font-mono break-all sm:text-sm md:text-base lg:text-lg xl:text-xl whitespace-normal">
+        {code}
+      </pre>
+    </div>
+  );
 }
 
 export default CodeEditor;

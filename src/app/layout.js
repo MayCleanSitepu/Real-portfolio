@@ -1,30 +1,25 @@
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Stay klin",
   description: "Let's be friends",
-
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/public/pixelcomp.ico "/>
-        
+        <link rel="icon" href="/public/pixelcomp.ico " />
       </Head>
       <body className={`${inter.className}`}>
-          <Navbar />
-        <div className='container mx-auto px-8'>
-        </div>
+        <Navbar />
+        <div className="container mx-auto px-8"></div>
         {children}
       </body>
     </html>

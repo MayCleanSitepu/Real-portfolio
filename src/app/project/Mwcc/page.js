@@ -1,12 +1,12 @@
-import Mmwcc from '@/components/Medium/mwcc'
-import React from 'react'
+import Mmwcc from "@/components/Medium/mwcc";
+import React from "react";
 
 function Mwcc() {
   return (
     <>
-        <Mmwcc/>
+      <Mmwcc />
     </>
-  )
+  );
 }
 
-export default Mwcc
+export default Mwcc;

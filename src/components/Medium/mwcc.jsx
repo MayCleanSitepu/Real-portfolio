@@ -1,12 +1,15 @@
 import React from "react";
 import { HC1, HC2, HC3, HCL1, HCL2 } from "./constant";
 import Image from "next/image";
-import {Link} from "@nextui-org/react";
+import { Link } from "@nextui-org/react";
 
 const Mmwcc = () => {
   return (
     <>
-      <div id="container" className="bg-white dark:bg-neutral-900/60 mt-20 flex flex-col items-center ">
+      <div
+        id="container"
+        className="bg-white dark:bg-neutral-900/60 mt-20 flex flex-col items-center "
+      >
         <div className=" flex flex-col gap-10 max-w-[680px] px-10">
           <div id="grupAtas" className="flex flex-col gap-4">
             <div id="title" className="">
@@ -49,8 +52,7 @@ const Mmwcc = () => {
             >
               Visit MWCC Website
             </Link>
-            <p
-              className="text-[#242424] dark:text-[#ebebeb] text-base sm:text-lg tracking-wide">
+            <p className="text-[#242424] dark:text-[#ebebeb] text-base sm:text-lg tracking-wide">
               {HC1}
             </p>
             <br />

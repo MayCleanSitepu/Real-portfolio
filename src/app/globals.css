@@ -3,16 +3,18 @@
 @tailwind utilities;
 /* @import url('https://fonts.googleapis.com/css2?family=Borel&:wght@3100..800&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rowdies:wght@300;400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  
 }
 /* * {
   outline: 1px solid rgba(255,0,0,0.2) !important; 
   } */
-html,body {
+html,
+body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -25,7 +27,7 @@ html,body {
 
 ::-webkit-scrollbar-thumb {
   background-color: rgba(16, 16, 16, 0.774); /* Warna thumb scrollbar */
-  border-radius: 10px; 
+  border-radius: 10px;
   border: 2px solid transparent; /* Atur border thumb scrollbar */
 }
 
@@ -48,8 +50,8 @@ html,body {
 
 ::-webkit-scrollbar-thumb:vertical {
   background-color: white; /* Warna thumb scrollbar vertikal */
-  border-radius: 10px; 
-  border: 2px solid transparent; 
+  border-radius: 10px;
+  border: 2px solid transparent;
 }
 
 ::-webkit-scrollbar-thumb:vertical:hover {
@@ -127,7 +129,7 @@ html,body {
   }
 } */
 
-.autoshow{
+.autoshow {
   animation: autoShowAnimation both;
   animation-timeline: view(70% 5%);
 }
@@ -139,22 +141,23 @@ html,body {
   }
   to {
     opacity: 1;
-    transform:  translateY(0) scale(1);
+    transform: translateY(0) scale(1);
   }
 }
 
-.autoBlur{
+.autoBlur {
   animation: autoBlurAnimation linear both;
   animation-timeline: view();
 }
 @keyframes autoBlur {
-  0%{
+  0% {
     filter: blur(30px);
   }
-  45%, 55%{
+  45%,
+  55% {
     filter: blur(0px);
   }
-  100%{
+  100% {
     filter: blur(30px);
   }
 }
