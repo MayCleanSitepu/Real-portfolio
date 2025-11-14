@@ -88,7 +88,15 @@ const Simple = () => {
               href="mailto:maycleansitepu0204@ugm.mail.ac.id"
               className="text-gray-400 underline hover:bg-[#cad5e1] hover:text-black transition duration-200"
             >
-              Contact
+              Email
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="https://www.linkedin.com/in/mayclean-sitepu"
+              className="text-gray-400 underline hover:bg-[#cad5e1] hover:text-black transition duration-200"
+            >
+              LinkedIn
             </Link>
           </li>
           <li>
