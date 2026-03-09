@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Keep It klin',
   description: 'Keep It klin',
-  generator: 'Keep It klin',
+  generator: 'Keep It klin.',
   icons: {
     icon: [
       {
